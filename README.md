@@ -47,6 +47,16 @@ analysis, and embeddings; data persists to a local JSON file store.
 The archive is seeded with 5 demo meetings so search/analytics look populated
 immediately. Real uploads are added on top.
 
+<<<<<<< HEAD
+=======
+## User Interface Features
+
+- Dedicated views for Summary, Transcript, Action Items, and Analytics.
+- Meeting status indicators provide real-time processing feedback.
+- Tag-based categorization improves meeting discoverability.
+- Dark-mode interface optimized for extended review sessions.
+
+>>>>>>> 8a4f144 (docs: add README improvements and UI enhancements)
 ## How processing works
 
 1. `POST /api/meetings` accepts an audio file (multipart `audio` field), creates
